@@ -1,0 +1,21 @@
+.rulesContainer {
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+
+    .rulesTitle {
+        position: absolute;
+        top: 10%;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        text-transform: uppercase;
+        color: hsl(229, 25%, 31%);
+        font-size: 2rem;
+    }
+}

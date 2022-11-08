@@ -1,0 +1,28 @@
+.scoreContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 28%;
+    border-radius: 8px;
+    background: #fff;
+    padding: .3em;
+    margin-right: 4%;
+    height: 80%;
+
+    .scoreTitle {
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-size: .7rem;
+        line-height: 0;
+        font-weight: 700;
+        padding-top: 1em;
+        padding-bottom: .1em;
+        color: hsl(229, 64%, 46%);
+    }
+
+    .score {
+        font-size: 2.6rem;
+        color: hsl(229, 25%, 31%);
+    }
+}

@@ -1,0 +1,19 @@
+.btnContainer {
+    text-align: center;
+    margin-top: 2em;
+    z-index: 30;
+    position: relative;
+
+    .btn {
+        text-transform: uppercase;
+        border-radius: 9px;
+        padding: .52em 2.3em;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 1rem;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+}

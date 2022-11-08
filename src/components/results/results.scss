@@ -1,0 +1,33 @@
+.resultsContainer {
+    display: flex;
+    width: 100%;
+    margin-top: 3.5em;
+
+    .choice {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: .5em 0;
+        padding: 1em 0;
+
+        .choiceText {
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1.75px;
+            font-size: .95rem;
+            position: absolute;
+            bottom: 0;
+        }
+
+        #computer {
+            width: 60%;
+            border-radius: 50%;
+            background: hsl(237, 49%, 15%);
+            opacity: .25;
+        }
+    }
+}

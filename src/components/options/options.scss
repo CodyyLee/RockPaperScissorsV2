@@ -1,0 +1,17 @@
+.optionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3.5em;
+    position: relative;
+    width: 90%;
+
+    .triangle {
+        position: absolute;
+        width: 55%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
